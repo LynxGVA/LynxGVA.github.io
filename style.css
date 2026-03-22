@@ -246,6 +246,41 @@ footer {
   margin-bottom: 1.5rem;
 }
 
+.gallery {
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery img {
+  width: 140px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  border: 1px solid #e5e7eb;
+  cursor: pointer;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+.career-list {
+  max-width: 700px;
+  margin-left: 0;
+  padding-left: 1.2rem;
+}
+
+.career-list li {
+  margin-bottom: 0.6rem;
+  color: #2b2b2b;
+  line-height: 1.6;
+}
+
 @media (max-width: 900px) {
 
   .skills-container {
