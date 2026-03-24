@@ -252,7 +252,7 @@ footer {
   margin-top: 12px;
   flex-wrap: nowrap;
   overflow-x: auto;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .gallery img {
