@@ -197,6 +197,7 @@ a:hover {
   padding: 0.65rem 1.15rem;
   background: #0b6bcb;
   color: #fff;
+  margin-right: 10px;
   text-decoration: none;
   border-radius: 999px;
   font-weight: 600;
@@ -282,6 +283,11 @@ footer {
   margin-bottom: 0.6rem;
   color: #2b2b2b;
   line-height: 1.6;
+}
+
+.featured {
+border: 2px solid #0b6bcb;
+box-shadow: 0 14px 30px rgba(11, 107, 203, 0.16);
 }
 
 @media (max-width: 900px) {
